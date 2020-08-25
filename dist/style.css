@@ -1,0 +1,103 @@
+/* I should consider what I want everything else on the page to do if I am not telling it to do a specific thing */
+* {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    /*padding is for moving the whole body towards the middle and a bit to the right. 1vw is = to 1% of the viewport width. */
+    background-image: url(./images/stars.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -5em;
+    margin: 0;
+}
+
+/* More specific styling */
+
+#date {
+    color: white;
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#clock {
+    color: white;
+    font-size: 2.9em;
+    padding-bottom: 10px;
+    border-bottom: thin solid;
+    opacity: 0.80;
+}
+
+.container {
+    padding-top: 6em;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 220px;
+    margin-left: 220px;
+    text-align: center;
+}
+
+#quoteDisplay {
+    color: white;
+}
+
+p {
+    max-width: 30em;
+    color: white;
+    font-family: "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 40px auto;
+    text-transform: capitalize;
+    line-height: 145%;
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+#gen {
+    outline: none;
+    padding: 5px;
+    color: white;
+    opacity: 0.6;
+    background-color: black;
+    border: thin solid white;
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+
+#gen:hover {
+    background-color: white;
+    color: black;
+    border: thin solid black;
+    cursor: pointer;
+}
+
+#b-nav {
+    padding-bottom: 5em;
+    text-decoration: none;
+    opacity: 0.4;
+    position: fixed;
+    width: 100%;
+    bottom: 5em;
+} 
+
+#b-nav ul {
+    margin: 0;
+    padding: 0.5em;
+    text-align: center;
+}

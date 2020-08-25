@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quote Me</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body onload="startTime(); startDate()">
+        <div class="container">
+            <div id="date"></div>
+            <div id="clock"></div>
+            <div id="content">
+                <p id="quoteDisplay">
+                    The journey's no fun if you know where you're going. – Joichiro Yukihira
+                    <!-- Quote Display -->
+            </div>
+        </div>
+        <div id="b-nav">
+            <ul>
+                <button id="gen" onclick="newQuote()">New Quote</button>
+                <!-- The "onclick" attribute is used to run a specific function each time this button is clicked. In this case, it would be to generate a newQuote. -->
+            </ul>
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+
+</html>
