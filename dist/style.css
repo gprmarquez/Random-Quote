@@ -47,8 +47,7 @@ html, body {
 
 #quoteDisplay {
     color: white;
-    padding-top: 1vmin;
-    position: fixed;
+    padding: 1vmin;
     height: 50vh;
     overflow: scroll;
 }
