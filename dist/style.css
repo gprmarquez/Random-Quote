@@ -39,9 +39,11 @@ html, body {
 }
 
 .container {
-    padding: 6vh 1vw;
-    margin: 1vmin 2em;
+    padding: 6vh 2vw;
+    margin: 1vmin 1em;
     text-align: center;
+    max-height: 75%;
+    display: inline-block;
 }
 
 #quoteDisplay {
@@ -56,7 +58,7 @@ p {
     margin: 5vmax;
     text-transform: capitalize;
     line-height: 145%;
-    font-size: 3vmax;
+    font-size: 2.5vmax;
     font-variant: small-caps;
 }
 
@@ -82,7 +84,7 @@ p {
 }
 
 #b-nav {
-    padding-bottom: 5em;
+    padding-bottom: 5vmin;
     text-decoration: none;
     opacity: 0.4;
     position: fixed;
