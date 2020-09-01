@@ -1,3 +1,5 @@
+Please visit https://gprmarquez.github.io/Random-Quote/ to see this in action!
+
 This is my first repository that will be incorporating HTML, CSS, and JavaScript.
 
 Please let me know if you suggest any changes or would like to see something else.
