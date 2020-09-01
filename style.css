@@ -93,6 +93,7 @@ p {
     position: fixed;
     width: 100%;
     bottom: 5em;
+    touch-action: manipulation;
 } 
 
 #b-nav ul {
