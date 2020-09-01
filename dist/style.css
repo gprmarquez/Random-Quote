@@ -76,7 +76,6 @@ p {
     border-radius: 2px;
     transition: 0.5s;
     padding-bottom: 5px;
-    touch-action: manipulation;
 }
 
 #gen:hover {
@@ -93,11 +92,11 @@ p {
     position: fixed;
     width: 100%;
     bottom: 5em;
-    touch-action: manipulation;
 } 
 
 #b-nav ul {
     margin: 0;
     padding: 0.5em;
     text-align: center;
+    touch-action: manipulation;
 }
