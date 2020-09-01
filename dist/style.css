@@ -76,6 +76,7 @@ p {
     border-radius: 2px;
     transition: 0.5s;
     padding-bottom: 5px;
+    touch-action: manipulation;
 }
 
 #gen:hover {
